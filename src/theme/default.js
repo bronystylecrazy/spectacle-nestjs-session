@@ -1,15 +1,20 @@
 const defaultTheme = {
     colors: {
-        primary: 'red',
-        secondary: 'green'
+        primary: 'white',
+        secondary: '#e0234e'
     },
     fonts: {
-        header: '"Helvetica Neue", Helvetica, Arial, sans-serif'
+        header: `'Roboto Light', sans-serif`,
     },
     fontSizes: {
         h1: '72px',
-        h2: '64px'
-    }
+        h2: '64px',
+        h3: '52px',
+        h4: "44px",
+        h5: "32px",
+        h6: "24px"
+    },
+    fontWeight: '800'
 };
 
 export default defaultTheme;
